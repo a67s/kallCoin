@@ -10,20 +10,20 @@ Decentralised real time voice and video network overcoming the problem of centra
 * provide monetization ability in the decentralised network
 
 ## Glossary
-client - a destination and/or source of media
-human clients - enables humans to make/receive calls.
-machine clients - utilised to provide auxiliary services to the network. E.g. a “voicemail” client,  a voice enabled AI client etc
-service - infrastructure piece necessary to facilitate connection between two or more clients
-service types - predefined list of services and their protocols
-the ledger - decentralised consensus ledger necessary for the decentralised media network (e.g. can implement on top of Ethereum and/or Tezos networks)
-registrar - list of entries in the ledger specifying details for “adding” clients or services to the network
-client registrar - subset of registrar, where clients specify necessary details to contact them 
-service registrar - subset of registrar, where clients specify necessary details to utilise them
-network API version - version of full specification of the decentralised network 
-kallCoin - utilised to pay for provision of services, machine clients, and for calculating voting power in kallCoin network spec advancement votes
-invitation/initiation - clients and services can join each other by invitation or initiation. E.g. if Bob calls Alice, he joins the call by initiation, while Alice joins by invitation
-accounts - public key and kallCoin balances for services and clients
-statistics - a segment in ledger, where statistics about provided services is signed and stored by clients
+* client - a destination and/or source of media
+* human clients - enables humans to make/receive calls.
+* machine clients - utilised to provide auxiliary services to the network. E.g. a “voicemail” client,  a voice enabled AI client etc
+* service - infrastructure piece necessary to facilitate connection between two or more clients
+* service types - predefined list of services and their protocols
+* the ledger - decentralised consensus ledger necessary for the decentralised media network (e.g. can implement on top of Ethereum and/or Tezos networks)
+* registrar - list of entries in the ledger specifying details for “adding” clients or services to the network
+* client registrar - subset of registrar, where clients specify necessary details to contact them 
+* service registrar - subset of registrar, where clients specify necessary details to utilise them
+* network API version - version of full specification of the decentralised network 
+* kallCoin - utilised to pay for provision of services, machine clients, and for calculating voting power in kallCoin network spec advancement votes
+* invitation/initiation - clients and services can join each other by invitation or initiation. E.g. if Bob calls Alice, he joins the call by initiation, while Alice joins by invitation
+* accounts - public key and kallCoin balances for services and clients
+* statistics - a segment in ledger, where statistics about provided services is signed and stored by clients
 
 ## Client
 For clients to be part of network, they must “register” to the network. “Registration” is addition of an entry in client registrar. Entry contains:
@@ -76,4 +76,5 @@ Once per X blocks of ledger a time limited vote shall be held on next API specif
 
 ## References
 [1] https://whispersystems.org/blog/the-ecosystem-is-moving/
+
 [2] https://tools.ietf.org/html/draft-jennings-rtcweb-signaling-01
