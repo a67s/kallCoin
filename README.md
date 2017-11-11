@@ -1,5 +1,5 @@
-# kallCoin
-Decentralised real time voice and video network overcoming the problem of centralized networks and shortcomings of federated networks. This repo provides description and specification.
+# kallCoin 
+Decentralised real time voice and video network overcoming the problem of centralized networks and shortcomings of federated networks.
 
 ## Aims
 * deal with centralisation and walled garden problem of networks (having effective monopolies due to “network effect”)
